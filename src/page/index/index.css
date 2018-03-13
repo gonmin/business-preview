@@ -1,0 +1,194 @@
+/* keywords-list */
+.keywords-list {
+	float: left;
+	width: 240px;
+	height: 350px;
+	padding: 10px 0;
+	margin-right: 10px;
+	background: #666;
+	color: #fff;
+}
+
+.keywords-list .keywords-item {
+	padding-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+}
+.keywords-list .keywords-item:hover {
+	background: #999;
+}
+.keywords-list .keywords-item .link {
+	margin-right: 6px;
+	color: #fff;
+}
+.keywords-list .keywords-item .link:hover {
+	color: #c60023;
+}
+
+/* banner-con */
+.banner-con {
+	float: left;
+	height: 370px;
+	width: 830px;
+	background: #eee;
+}
+.banner-con .loading {
+	margin-top: 150px;
+}
+
+.banner-con .banner-img {
+	width: 100%;
+	height: 370px;
+}
+
+/* banner的钱一张和后一张按钮 */
+
+.banner-con .banner-arrow {
+	position: absolute;
+	top: 160px;
+	width: 30px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	background: #ccc;
+	background: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	color: #fff;
+}
+.banner-con .banner-arrow:hover {
+	background: #aaa;
+	background: rgba(0, 0, 0, 0.5);
+}
+.banner-con .banner-arrow.prev {
+	left: 0;
+}
+.banner-con .banner-arrow.next {
+	right: 0;
+}
+
+/*.banner .btn {
+	display: inline-block;
+	margin: 25px 0 0;
+	padding: 9px 22px 7px;
+	clear: both;
+
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	border: 2px solid rgba(255,255,255,.4);
+	border-radius: 5px;
+}
+	.banner .btn:hover {
+		background: rgba(255,255,255,.05);
+	}
+	.banner .btn:active {
+		-webkit-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+		-moz-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+		-ms-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+		-o-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+		filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+	}
+
+.banner .btn, .banner .dot {
+	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	-o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+	filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+*/
+.banner .dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	text-align: center;
+}
+	.banner .dots li {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		margin: 0 4px;
+		text-indent: -999em;
+
+		border: 2px solid #fff;
+		border-radius: 6px;
+
+		cursor: pointer;
+		opacity: .4;
+
+		-webkit-transition: background .5s, opacity .5s;
+		-moz-transition: background .5s, opacity .5s;
+		transition: background .5s, opacity .5s;
+	}
+		.banner .dots li.active {
+			background: #fff;
+			opacity: 1;
+		}
+
+.banner .arrows {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: #fff;
+}
+	.banner .arrow {
+		display: inline;
+		padding-left: 10px;
+		cursor: pointer;
+	}
+
+/* floor */
+.floor-wrap .floor-title {
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	color: #d58717;
+	font-size: 20px;
+	border-bottom: 1px solid #d58717;
+}
+.floor-wrap:nth-child(2) .floor-title {
+	color: #3b833c;
+	border-bottom: 1px solid #3b833c;
+}
+.floor-wrap:nth-child(3) .floor-title {
+	color: #a93931;
+	border-bottom: 1px solid #a93931;
+}
+.floor-wrap .floor-list {
+	margin-right: -20px;
+	overflow: hidden;
+}
+.floor-wrap .floor-item {
+	position: relative;
+	width: 200px;
+	height: 220px;
+	margin: 15px 20px 15px 0;
+	float: left;
+	cursor: pointer;
+	background: #fff;
+}
+.floor-wrap .floor-item:hover {
+	box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-item .floor-text{
+	position: absolute;
+
+	top: 12px;
+	left: 20px;
+	font-size: 16px;
+	color: #555;
+} 
+.floor-wrap .floor-item .floor-img {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	width: 80%;
+	height: 75%;
+	border: none;
+}
